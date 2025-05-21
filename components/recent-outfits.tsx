@@ -13,19 +13,19 @@ const recentOutfits: Outfit[] = [
   {
     id: "1",
     name: "Casual Friday",
-    image: "/images/outfit-casual.jpg",
+    image: "/images/23aa7d3531cfdd9d980127065d4157ca.jpg",
     date: "2023-05-12",
   },
   {
     id: "2",
     name: "Weekend Brunch",
-    image: "/images/outfit-brunch.jpg",
+    image: "/images/0ddf3b608b9ed0dd2c4acf5115cb31f2.jpg",
     date: "2023-05-10",
   },
   {
     id: "3",
     name: "Office Meeting",
-    image: "/images/outfit-office.jpg",
+    image: "/images/a0b5e2d5730df42febfb9e81e377fb6d.jpg",
     date: "2023-05-08",
   },
 ]
