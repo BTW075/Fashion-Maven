@@ -46,7 +46,7 @@ export default function FavoritesPage() {
           <div className="grid grid-cols-2 gap-4">
             {favoriteOutfits.map((outfit) => (
               <div key={outfit.id} className="bg-white/10 rounded-lg p-2">
-                <div className="relative w-full h-40 mb-2">
+                <div className="relative w-full h-80 mb-2">
                   <Image
                     src={outfit.image || "/placeholder.svg"}
                     alt={outfit.name}
