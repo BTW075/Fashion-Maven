@@ -26,7 +26,7 @@ export default function ProfilePage() {
     <HomeBackground>
       <div className="min-h-screen pb-16">
         {/* Header */}
-        <header className="bg-fashion-purple p-4 flex items-center">
+        <header className="bg-fashion-black p-4 flex items-center">
           <button onClick={() => router.back()} className="mr-4">
             <ChevronLeft className="w-6 h-6 text-white" />
           </button>
@@ -39,32 +39,32 @@ export default function ProfilePage() {
             <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mb-4">
               <User className="w-12 h-12 text-white" />
             </div>
-            <h2 className="text-xl font-bold text-black">{user.name}</h2>
-            <p className="text-black/70">{user.email}</p>
+            <h2 className="text-xl font-bold text-white">{user.name}</h2>
+            <p className="text-white/70">{user.email}</p>
           </div>
 
           <div className="space-y-4">
             <div className="bg-white/10 rounded-lg p-4">
-              <h3 className="text-black font-medium mb-3">Account Settings</h3>
+              <h3 className="text-white font-medium mb-3">Account Settings</h3>
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <User className="w-5 h-5 text-black/70 mr-3" />
-                    <span className="text-black">Edit Profile</span>
+                    <User className="w-5 h-5 text-white/70 mr-3" />
+                    <span className="text-white">Edit Profile</span>
                   </div>
                   <ChevronLeft className="w-5 h-5 text-white/70 transform rotate-180" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <Bell className="w-5 h-5 text-black/70 mr-3" />
-                    <span className="text-black">Notifications</span>
+                    <Bell className="w-5 h-5 text-white/70 mr-3" />
+                    <span className="text-white">Notifications</span>
                   </div>
                   <ChevronLeft className="w-5 h-5 text-white/70 transform rotate-180" />
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <Moon className="w-5 h-5 text-black/70 mr-3" />
-                    <span className="text-black">Dark Mode</span>
+                    <Moon className="w-5 h-5 text-white/70 mr-3" />
+                    <span className="text-white">Dark Mode</span>
                   </div>
                   <div className="w-10 h-6 bg-fashion-purple rounded-full relative">
                     <div className="absolute right-1 top-1 w-4 h-4 bg-white rounded-full"></div>
@@ -72,8 +72,8 @@ export default function ProfilePage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <Settings className="w-5 h-5 text-black/70 mr-3" />
-                    <span className="text-black">Settings</span>
+                    <Settings className="w-5 h-5 text-white/70 mr-3" />
+                    <span className="text-white">Settings</span>
                   </div>
                   <ChevronLeft className="w-5 h-5 text-white/70 transform rotate-180" />
                 </div>
