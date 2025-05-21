@@ -10,10 +10,10 @@ import { HomeBackground } from "@/components/background"
 
 // Mock data for favorite outfits
 const favoriteOutfits = [
-  { id: "1", name: "Summer Casual", image: "/placeholder.svg?height=200&width=150" },
-  { id: "2", name: "Office Formal", image: "/placeholder.svg?height=200&width=150" },
-  { id: "3", name: "Weekend Party", image: "/placeholder.svg?height=200&width=150" },
-  { id: "4", name: "Autumn Look", image: "/placeholder.svg?height=200&width=150" },
+  { id: "1", name: "Summer Casual", image: "images/fd4308e623e0dd624787b69bdb9d303d.jpg" },
+  { id: "2", name: "Office Formal", image: "images/f047b45acf7f17e4eb082cfa80c3041b.jpg" },
+  { id: "3", name: "Weekend Party", image: "images/87b3bede1cf9506d455697990d8e44ef.jpg" },
+  { id: "4", name: "Traditional Look", image: "images/8ab123410e899f32ad0c1baaf4a68e74.jpg" },
 ]
 
 export default function FavoritesPage() {
