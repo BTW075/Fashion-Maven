@@ -43,7 +43,7 @@ export function RecentOutfits() {
       <div className="flex space-x-3 overflow-x-auto pb-2">
         {recentOutfits.map((outfit) => (
           <Link key={outfit.id} href={`/outfits/${outfit.id}`} className="flex-shrink-0">
-            <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center mb-1 overflow-hidden">
+            <div className="w-40 h-22 bg-white rounded-lg flex items-center justify-center mb-1 overflow-hidden">
               <Image
                 src={outfit.image || "/placeholder.svg"}
                 alt={outfit.name}
