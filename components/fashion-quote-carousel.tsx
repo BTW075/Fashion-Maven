@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const quotes = [
   "Your Personal Style Manager :)",
-  "It is your time to showcase your style! How you ask? Just leave it on us😉"
+  "It is your time to showcase your style! How you ask? Just leave it on us😉",
   "Fashion is the armor to survive the reality of everyday life.",
   "Fashion is about dressing according to what's fashionable. Style is more about being yourself.",
   "Fashion is what you're offered four times a year by designers. Style is what you choose.",
