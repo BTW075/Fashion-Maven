@@ -28,7 +28,7 @@ export default function HomePage() {
     <HomeBackground>
       <div className="min-h-screen pb-16">
         {/* Header */}
-        <header className="bg-fashion-purple p-4 flex justify-between items-center">
+        <header className="bg-fashion-black p-4 flex justify-between items-center">
           <button>
             <Menu className="w-6 h-6 text-white" />
           </button>
